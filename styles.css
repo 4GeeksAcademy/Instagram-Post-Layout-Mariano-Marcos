@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: black;
+    justify-content: center;
+}
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+.post {
+    width: 28%;
+    background-color: white;
+    justify-content: center;
+    margin: 70px 36%;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px 0 13px;
+    margin: 0px 0px 7px 0px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    margin: 0 0 0 0;
+}
+
+.left-header img {
+    width: 14%;
+    height: auto;
+    padding: 0 7px 0 0; /* Remove padding */
+    margin: 0 0 0 0; /* Adjust margin between image and text */
+}
+
+.left-text {
+    display: flex;
+    padding-top: 0px;
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 0px; /* Adjust margin to align with image height */
+}
+
+.left-text p {
+    margin: 0;
+    padding: 0; /* Reset margin for <p> tags inside .left-text */
+}
+
+
+.right-header i {
+    width: 16%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 0; /* Remove padding */
+    margin: 0px 0px 0px 0px; /* Adjust margin between image and text */
+}
+
+
+.post-img img {
+    width: 100%;
+    height: auto;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px 12px 14px;
+}
+
+.post-icons p {
+    margin: 10px 0px 15px 0px;
+    padding: 0px;
+}
+
+.post-icons i {
+    padding-right: 7px;
+}
+
+.post-body {
+    padding: 0 0 15px 0;
+}
+
+.post-body p {
+    margin: 0;
+    padding: 0 14px 10px 14px;
+    text-align: justify;
+    font-size: 14px;
+}
